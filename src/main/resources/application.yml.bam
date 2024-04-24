@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demo-springboot-watsonx-ai-rag
+  ai:
+    watsonx:
+      ai:
+        base-url: https://bam-api.res.ibm.com/
+        stream-endpoint: v2/stream/chat?version=2024-04-23
+        text-endpoint: v2/text/chat?version=2024-04-23
+        project-id: 9216c530-1806-43af-a4f5-03e2afa1f672
+        i-a-m-token: pak-F1LtAyyLkM-bzGWiFn_HFA0gqsNvd8Q1MhL9MIWF2LE
+        chat:
+          options:
+            model: ibm/granite-13b-chat-v2
