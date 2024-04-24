@@ -7,8 +7,8 @@ spring:
         base-url: https://us-south.ml.cloud.ibm.com/
         stream-endpoint: ml/v1/text/generation?version=2023-05-29
         text-endpoint: ml/v1/text/generation?version=2023-05-29
-        project-id: b1f7ca5d-c9dd-4c91-91de-d935b0f49033
-        i-a-m-token: aGFD5igZ1CoPSc3lSxfSpBiuBvE7QHIkBtZ91laQ6BQ1
+        project-id: *******
+        i-a-m-token: *******
         chat:
           options:
             model: ibm/granite-13b-chat-v2
